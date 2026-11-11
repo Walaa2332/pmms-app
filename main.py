@@ -54,6 +54,7 @@ df_equipment = load_equipment_data()
 
 # ------------------- PAGE 1: DASHBOARD -------------------
 if page == "📊 System Dashboard":
+    st.info("Prototype Demo: This interactive dashboard operates on simulated IoT sensor data for project demonstration purposes.")
     st.markdown('<p class="main-header">⚙️ Real-Time Equipment Monitoring Dashboard</p>', unsafe_allow_html=True)
     st.write("Continuous IoT sensor monitoring and system status overview across facilities.")
 
